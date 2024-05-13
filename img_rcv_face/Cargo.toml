@@ -1,0 +1,18 @@
+[package]
+name = "img_rcv_face"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+bevy.workspace = true
+bevy-tokio-tasks = "0.11.0"
+bevy_reflect.workspace = true
+lazy_static.workspace = true
+ndarray.workspace = true
+pluginator.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true

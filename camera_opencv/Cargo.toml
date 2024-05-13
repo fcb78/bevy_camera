@@ -1,0 +1,21 @@
+[package]
+name = "camera_opencv"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib", "rlib"]
+
+[dependencies]
+bevy_reflect.workspace = true
+camera_core = { version = "0.1.0", path = "../camera_core" }
+env_logger.workspace = true
+json.workspace = true
+lazy_static.workspace = true
+log.workspace = true
+ndarray.workspace = true
+
+opencv.workspace = true
+#plugin_core = { version = "0.1.0", path = "../plugin_core" }
+pluginator.workspace = true
+tokio.workspace = true

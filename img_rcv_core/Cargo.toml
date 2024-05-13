@@ -1,0 +1,10 @@
+[package]
+name = "img_rcv_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_reflect.workspace = true
+ndarray.workspace = true
+plugin_core = { version = "0.1.0", path = "../plugin_core" }
+tokio.workspace = true
